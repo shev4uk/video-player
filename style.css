@@ -1,0 +1,23 @@
+section {
+  display: inline-block;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 0 35px;
+}
+button {
+  height: 36px;
+  border: none;
+  background-color: transparent;
+  font-size: 1.2em;
+}
+.btn-play.playing::before {
+    content: "\0025BA";
+}
+.btn-play::before {
+    content: "\00275A \00275A";
+}
